@@ -1,0 +1,88 @@
+/* Style sheet created by: Jacob Carr, 11/4/2020 */
+
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+hr{
+	height: 3px;
+	background: #4E9657
+}
+
+main{
+	padding: 1em;
+	background-color: #4E9657;
+}
+
+section{
+	background-color: #FFFFFF;
+	padding: 10px;
+	padding-top: 10px;
+}
+
+/* Style for the header element */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #FFFFFF;
+	color: #4E9657;
+	padding: 0.5%;
+	margin-left: 1%;
+	font-size: 3em;
+}
+article{
+	color: black;
+	border: 10px;
+	padding-top: 10px;
+}
+
+/* Style for the nav element */
+nav {
+	padding: 0.5%;
+}
+
+/* Style for the nav list item elements */
+nav li {
+	display: inline;
+}
+
+/* Style for the nav links element */
+nav li a {
+	color: #4E9657;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+}
+/* Style for the table */
+table{
+  width: 100%;
+}
+td, th {
+	border: 1px solid black;
+}
+aside{
+	border-radius:30%;
+	background-color: #4E9657;
+	font-size: xx-large;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 20px;
+}
+
+
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
