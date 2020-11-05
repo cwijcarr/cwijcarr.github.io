@@ -1,0 +1,59 @@
+table {border-collapse:collapse;border-spacing:0;width: 100%;}
+td{border-color:#aa4b6b;border-style:solid;border-width:10px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+th{border-color:#aa4b6b;border-style:solid;border-width:10px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;font-size: x-large;}
+.tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg-0lax{text-align:left;vertical-align:top}
+body{
+    background-image: linear-gradient(to right, #aa4b6b , #6b6b83, #3b8d99);
+
+}
+
+.alt1{
+background-color: #6b6b83;
+font-size: large;
+}
+
+.alt2{
+    background-color: #aa4b6b;
+    font-size: large;
+    }
+
+.alt3{
+    background-color: #3b8d99;
+    font-size: large;
+    }
+
+.white{
+    background-color: aliceblue;
+}
+
+.center{
+    font-size: x-large;
+    text-align: center;
+}
+.wtext{
+    color: aliceblue;
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: pink;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: aliceblue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
