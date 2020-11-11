@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#FF0000" height="303" id="svg_1" stroke="#000000" stroke-width="5" width="519" x="62" y="85"/>
+  <text fill="#000000" font-family="serif" font-size="24" id="svg_2" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(3.12164 0 0 3.38462 -291.659 -522.538)" x="194" xml:space="preserve" y="233">Hello World</text>
+ </g>
+</svg>
