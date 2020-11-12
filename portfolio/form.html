@@ -83,45 +83,48 @@
          </div>
          
          <!-- hear -->
-         <div class="form-group">
-           <label class="col-md-4 control-label">Where did you hear about me?</label>
-           <div class="col-md-4">
-           <div class="checkbox">
-             <label for="hear-0">
-               <input type="checkbox" name="hear" id="hear-0" value="Indeed">
-               Indeed
-             </label>
-            </div>
-           <div class="checkbox">
-             <label for="hear-1">
-               <input type="checkbox" name="hear" id="hear-1" value="LinkedIn">
-               LinkedIn
-             </label>
-            </div>
-           <div class="checkbox">
-             <label for="hear-2">
-               <input type="checkbox" name="hear" id="hear-2" value="Job Fair">
-               Job Fair
-             </label>
-            </div>
-           <div class="checkbox">
-             <label for="hear-3">
-               <input type="checkbox" name="hear" id="hear-3" value="CWI Software Development Corporate Partner">
-               CWI Software Development Corporate Partner
-             </label>
-            </div>
-           <div class="checkbox">
-             <label for="hear-4">
-               <input type="checkbox" name="hear" id="hear-4" value="Other">
-               Other
-             </label>
-            </div>
+         <!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="hear">Where did you hear about me?</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="hear-0">
+      <input type="radio" name="hear" id="hear-0" value="Indeed" checked="checked">
+      Indeed
+    </label>
+	</div>
+  <div class="radio">
+    <label for="hear-1">
+      <input type="radio" name="hear" id="hear-1" value="LinkedIn">
+      LinkedIn
+    </label>
+	</div>
+  <div class="radio">
+    <label for="hear-2">
+      <input type="radio" name="hear" id="hear-2" value="Job Fair">
+      Job Fair
+    </label>
+	</div>
+  <div class="radio">
+    <label for="hear-3">
+      <input type="radio" name="hear" id="hear-3" value="CWI Software Development Corporate Partner">
+      CWI Software Development Corporate Partner
+    </label>
+	</div>
+  <div class="radio">
+    <label for="hear-4">
+      <input type="radio" name="hear" id="hear-4" value="Other">
+      Other
+    </label>
+	
+  </div>
+</div>
             
            </div>
            <div class="form-group">
             <label class="col-md-4 control-label" for="message">Message:</label>
             <div class="col-md-4">                     
-              <textarea class="form-control" id="message" name="message">Enter Message Here</textarea>
+              <textarea class="form-control" id="message" name="message"></textarea>
             </div>
           </div>
           <input type="submit" id="submit" value="Submit" class="btn">
