@@ -183,7 +183,7 @@ nav ul, nav ol {
 	
 	font-family: 'sinkin_sans400_regular','Times New Roman', serif;
 	font-size: 2em;
-
+	
 }
 @font-face {
     font-family: 'sinkin_sans400_regular';
@@ -201,18 +201,6 @@ nav ul, nav ol {
 .ltable{
 	margin-top: .5em; margin-bottom: .5em;
 	margin-right:10%; margin-left: 30%;
-}
-td{border-color:black;border-style:solid;border-width:3px;font-family:Arial, sans-serif;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-th{border-color:black;border-style:solid;border-width:3px;font-family:Arial, sans-serif;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-
-table{
-	background-color: #191919;
-	font-size: large;
-	color: white;
-	align-items: center;
-	
 }
 
   .course{

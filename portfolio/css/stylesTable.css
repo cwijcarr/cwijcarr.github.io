@@ -1,18 +1,14 @@
 
 table {
-  width: 100%;
-  background-image: linear-gradient(#FFFFFF, #F0F9E6);
-  border-collapse: collapse;
-  border-width: 2px;
-  border-color: #DFA478; 
-  border-style: solid;
-  color: #000000;
-  margin-bottom: 20px;
+
+  background-color: #191919;
+	font-size: large;
+	color: white;
+	align-items: center;
 }
 
 table td, th {
   border-width: 2px;
-  border-color: #DFA478;
   border-style: solid;
   padding: 15px;
  
@@ -21,3 +17,9 @@ table td, th {
 table thead {
   background-color: #DFA478;
 }
+
+
+td{border-color:black;border-style:solid;border-width:3px;font-family:Arial, sans-serif;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+th{border-color:black;border-style:solid;border-width:3px;font-family:Arial, sans-serif;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
