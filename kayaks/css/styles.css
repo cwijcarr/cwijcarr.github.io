@@ -1,0 +1,59 @@
+#bar { background-color: #152420; }
+main { background-image: url(heroback.jpg);
+
+}
+
+
+/* ===============================
+Mobile Styles: 0px to 480px
+===============================
+*/
+@media only screen and (max-width: 641px) {
+    nav {
+        
+        display: block;
+    }
+   
+       h1{
+          display: none;
+          }
+          body{
+            background: linear-gradient(#e66465, #9198e5);
+          }
+
+          
+ }
+ /* ================================
+ Tablet Styles: 481px and greater
+ ================================
+ */
+ @media only screen and (min-width: 641px) {
+ 
+    h1{
+        display: inline;
+        }
+          body{
+            background: transparent;
+          }
+          ul {
+            list-style-type: none;
+        
+            overflow: hidden;
+            
+          }
+          main{
+            background-image: url(../images/heroback.jpg);
+        }
+
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+          }
+          
+ 
+ }
