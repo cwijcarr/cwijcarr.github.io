@@ -1,11 +1,11 @@
 #bar { background-color: #152420;}
-main { background-image: url(heroback.jpg);
+main { background-image: url(../images/heroback.jpg);
 
 }
 
 
 /* ===============================
-Mobile Styles: 0px to 480px
+Mobile Styles: 0px to 641px
 ===============================
 */
 @media only screen and (max-width: 641px) {
@@ -26,7 +26,7 @@ Mobile Styles: 0px to 480px
           
  }
  /* ================================
- Tablet Styles: 481px and greater
+ Tablet/Desktop Styles: 641px and greater
  ================================
  */
  @media only screen and (min-width: 641px) {
@@ -43,11 +43,7 @@ Mobile Styles: 0px to 480px
             overflow: hidden;
             
           }
-          main{
-            background-image: url(../images/heroback.jpg);
-            background-repeat: no-repeat;
-            margin-right: 2%;
-        }
+          
 
           li {
             float: left;
