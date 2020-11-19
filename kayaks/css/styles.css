@@ -1,4 +1,4 @@
-#bar { background-color: #152420; }
+#bar { background-color: #152420; margin-right: 55%;}
 main { background-image: url(heroback.jpg);
 
 }
@@ -53,6 +53,7 @@ Mobile Styles: 0px to 480px
           
           li a {
             display: block;
+            
             color: white;
             text-align: center;
           }
