@@ -1,4 +1,4 @@
-#bar { background-color: #152420; margin-right: 55%;}
+#bar { background-color: #152420;}
 main { background-image: url(heroback.jpg);
 
 }
@@ -10,19 +10,18 @@ Mobile Styles: 0px to 480px
 */
 @media only screen and (max-width: 641px) {
     nav {
-        margin-right: 100%;
+      
         display: block;
     }
    
        h1{
           display: none;
-          margin-right: 100%;
+          
           }
           body{
             background: linear-gradient(#e66465, #9198e5);
             
           }
-          #bar { background-color: #152420; margin-right: 0%;}
 
           
  }
