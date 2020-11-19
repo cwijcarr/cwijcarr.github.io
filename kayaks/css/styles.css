@@ -4,6 +4,27 @@ main { background-image: url(../images/heroback.jpg);
 }
 
 
+ .inline{
+    display:inline;
+ }
+
+ 
+         h1{
+        display: unset;
+        }
+          body main{
+            background: transparent;
+          }
+          
+          .element {
+            list-style: disc;
+            padding: 0;
+            margin: 0;
+           
+
+         }
+ 
+
 /* ===============================
 Mobile Styles: 0px to 641px
 ===============================
@@ -22,39 +43,14 @@ Mobile Styles: 0px to 641px
             background: linear-gradient(#e66465, #9198e5);
             
           }
-
+          .inline{
+            display:block;
+         }
           
  }
- /* ================================
- Tablet/Desktop Styles: 641px and greater
- ================================
- */
- @media only screen and (min-width: 641px) {
- 
-    h1{
-        display: inline;
-        }
-          body{
-            background: transparent;
-          }
-          ul {
-            list-style-type: none;
-        
-            overflow: hidden;
-            
-          }
-          
-
-          li {
-            float: left;
-          }
-          
-          li a {
-            display: block;
-            
-            color: white;
-            text-align: center;
-          }
-          
- 
- }
+.reset{
+    list-style-type: disc;
+    overflow: auto;
+    float: none;
+    display: block;
+}
