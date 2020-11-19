@@ -39,9 +39,12 @@ Mobile Styles: 0px to 641px
           display: none;
           
           }
-          body, main{
+          body {
             background: linear-gradient(#007dff, #ffffff);
             
+          }
+          main {
+              background: transparent;
           }
           .inline{
             display:block;
