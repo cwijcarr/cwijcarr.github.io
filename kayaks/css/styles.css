@@ -12,7 +12,7 @@ main { background-image: url(../images/heroback.jpg);
          h1{
         display: unset;
         }
-          body main{
+          body {
             background: transparent;
           }
           
@@ -39,7 +39,7 @@ Mobile Styles: 0px to 641px
           display: none;
           
           }
-          body{
+          body, main{
             background: linear-gradient(#e66465, #9198e5);
             
           }
