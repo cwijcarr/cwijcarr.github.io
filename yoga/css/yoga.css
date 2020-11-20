@@ -1,0 +1,101 @@
+/*
+Jacob Carr
+11/20/2020
+*/
+li{
+	list-style: none;
+	display: inline;
+	
+}
+
+main ul{
+	list-style-image: url(../images/yogabullet.png);
+    margin-left: 3em;
+}
+
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(../images/lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+	 font-weight: bold; 
+	 list-style-type: none;
+	 margin: 0px;
+	 padding: 0px;
+}
+address{
+	margin-bottom: .5em;
+}
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: .5em;
+}
+
+.schedule{
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid black;
+    margin-bottom: .5em;
+}
+
+td{
+	border: 1px solid black;
+	text-align: center;
+	
+}
+
+/*
+==========================
+=== MOBILE BREAK POINT ===
+==========================
+*/
+
+@media only screen and (max-width: 641px) {
+
+li{
+	display: block;
+	
+}
+header{
+	background-image: none;
+}
+
+body{
+	background-image: url(../images/yogamobile.png);
+
+}
+
+img{
+	display: none;
+};
+
+
+}
+
+
+
+
+@media only screen and (min-width: 641px) {
+
+li{
+	display: inline;
+}
+
+}
