@@ -20,6 +20,11 @@ File Name: styles.css
 .tablet-desktop {
     display: none;
 }
+.table-pad
+    {
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
 
 /* Media Query for Tablet Viewport */
 @media (min-width: 768px) {  
@@ -31,6 +36,12 @@ File Name: styles.css
 
     .mobile {
         display: none;
+    }
+    .table-pad
+    {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        
     }
     
 }
