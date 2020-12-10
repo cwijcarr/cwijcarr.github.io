@@ -28,7 +28,7 @@
   z-index: 99;
   /*** Add animation drive using cubic-bezier as one option ***/
   animation-name: drive;
-  animation-timing-function: cubic-bezier(.15,.33,.24,-0.36);
+  animation-timing-function: cubic-bezier(.39,.54,.24,-0.36);
   animation-duration: 20s;
   animation-iteration-count: infinite;
   
@@ -45,7 +45,7 @@
   background-size: contain;
   /*** wheel spin animation ***/
   animation-name: wheelSpin;
-  animation-timing-function: cubic-bezier(.15,.33,.24,-0.36);
+  animation-timing-function: cubic-bezier(.39,.54,.24,-0.36);
   animation-duration: 20s;
   animation-iteration-count: infinite;
 
@@ -186,8 +186,8 @@ body {
 /*Keyframes*/
 
 @keyframes drive {
-  from{ transform: translateX(0);}
-  to{ transform: translateX(2000px);}
+  from{ left: -10%;}
+  to{ left: 110%;}
 }
 @keyframes wheelSpin {
   from{ transform: rotateZ(0deg);}
@@ -195,7 +195,7 @@ body {
 }
 /* Balloon */
 @keyframes wind {
-    from{ left: 0px;}
+    from{ left: -20%;}
     to{ left: 90%;}
 }
 @keyframes gust {
