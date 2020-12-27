@@ -1,0 +1,13 @@
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="zmad"></div>
+<script type="text/javascript">
+  var options = {
+    width: 1920,
+    height: 1080,
+    channel: "zmad",
+    // only needed if your site is also embedded on embed.example.com and othersite.example.com
+    parent:["localhost/127.0.0.1"]
+  };
+  var player = new Twitch.Player("zmad", options);
+  player.setVolume(0);
+</script>
